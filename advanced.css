@@ -1,0 +1,66 @@
+/* 
+  CSE183 Assignment 2
+
+  CSS for Advanced Requirement 
+*/
+body{
+  font-size: 0;
+}
+div{
+  display: inline-block;
+}
+.letter{
+  background-color: navy;
+  color: white;
+  font-size: 60pt;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100px;
+  height: 180px;
+  
+  /* margin: auto; */
+  /* text-align: center; */
+  
+
+
+}
+
+.letter:hover{
+  background-color: white;
+  color: navy;
+}
+.number{
+  margin: 0px;
+  border-width: 10px;
+  border-color: yellow;
+
+  border-style: solid;
+  background-color: black;
+  color: yellow;
+  font-size: 40pt;
+  font-family: 'Courier New', Courier, monospace;
+  height: 60px;
+  width: 60px;
+  
+  text-align: center;
+  
+  
+  
+}
+
+.topleft{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.br{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.number:hover{
+  background-color: yellow;
+  color: black;
+}
+
+

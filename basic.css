@@ -1,0 +1,15 @@
+/* 
+  CSE183 Assignment 2
+
+  CSS for Basic Requirement 
+*/
+div{
+  background-color: yellow;
+  font-size: 40pt;
+  font-family: 'Courier New', Courier, monospace;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+
+}
