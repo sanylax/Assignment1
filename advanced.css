@@ -4,11 +4,20 @@
   CSS for Advanced Requirement 
 */
 body{
-  font-size: 0;
+  font-size: 0; /* Removes horizontal space in between divs */
 }
 div{
-  display: inline-block;
+  display: inline-block; /* Makes all divs aligned horizontally instead of vertically */
 }
+
+/* Aligns div to top left */
+.topleft{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+/* Sets text properties for letters */
 .letter{
   background-color: navy;
   color: white;
@@ -16,48 +25,41 @@ div{
   font-family: 'Courier New', Courier, monospace;
   width: 100px;
   height: 180px;
-  
-  /* margin: auto; */
-  /* text-align: center; */
-  
-
-
 }
 
+
+/* Aligns div to bottom right and sets a border around all elements within the div */
+.bottomright{
+  border-width: 10px;
+  border-color: yellow;
+  border-style: solid;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+/*Sets text properties for letters when mouse cursor is hovering*/
 .letter:hover{
   background-color: white;
   color: navy;
 }
-.number{
-  margin: 0px;
-  border-width: 10px;
-  border-color: yellow;
 
-  border-style: solid;
+/* Sets text properties for numbers */
+.number{
+  
   background-color: black;
   color: yellow;
   font-size: 40pt;
   font-family: 'Courier New', Courier, monospace;
   height: 60px;
   width: 60px;
-  
   text-align: center;
-  
-  
-  
 }
 
-.topleft{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-.br{
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-}
 
+
+
+/* Sets text properties for letters when mouse cursor is hovering */
 .number:hover{
   background-color: yellow;
   color: black;
