@@ -5,24 +5,43 @@
   <head>
     <!-- Comment in/out the Style Sheets as you work on them -->
       <!-- <link href="basic.css" rel="stylesheet" />  -->
-      <link href="advanced.css" rel="stylesheet" /> 
-      <!-- <link href="stretch.css" rel="stylesheet" />  -->
+      <!-- <link href="advanced.css" rel="stylesheet" />  -->
+      <link href="stretch.css" rel="stylesheet" /> 
      
-      <title> CSE183 Assignment 1 </title>
+      <title> CSE183 Assignment 1 Santosh Lakshman </title>
   </head> 
+  <!-- Validated as XHTML 1.0 Strict using W3 Validator -->
   <body>
-    <!-- Your HTML Goes Here -->
+    <!-- This HTML file is the same for all 3 parts -->
+    <!-- The page looks different based on which one of the stylesheets you choose to link -->
+    <!-- Each div with a letter/number is a part of 3 classes, one for each stylesheet -->
+    <!-- The classes which aren't linked are ignored, so only one class will be active at a time -->
+    <!-- Source: https://stackoverflow.com/questions/11918491/using-two-css-classes-on-one-element -->
     <div class = 'topleft'>
-      <div class = "letter">C</div>
-      <div class = "letter">S</div>
-      <div class = "letter">E</div>
+      <div class = "basic letter gradient_vertical_stretch">C</div>
+      <div class = "basic letter color_change_horizontal_stretch">S</div>
+      <div class = "basic letter gradient_vertical_stretch">E</div>
     </div>
 
     <div class = 'bottomright'>
-      <div class = "number">1</div>
-      <div class = "number">8</div>
-      <div class = "number">3</div>
+      <div class = "basic number color_change_horizontal_stretch">1</div>
+      <div class = "basic number gradient_vertical_stretch">8</div>
+      <div class = "basic number color_change_horizontal_stretch">3</div>
     </div>
 
   </body> 
 </html>
+
+<!-- 
+  Sources:
+  
+  https://www.w3schools.com/css/css_align.asp
+  https://www.w3schools.com/css/css3_transitions.asp
+  https://www.w3schools.com/css/css3_gradients.asp
+  https://stackoverflow.com/questions/3616572/how-to-position-a-div-in-bottom-right-corner-of-a-browser
+  https://stackoverflow.com/questions/11918491/using-two-css-classes-on-one-element
+  https://www.tutorialspoint.com/html/html_comments.htm
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+  https://blog.hubspot.com/website/css-border
+
+ -->

@@ -2,10 +2,45 @@
   CSE183 Assignment 2
 
   CSS for Stretch Requirement using two or all of the following:
-
     Gradients
     Transtitions
     Animations
 
   Partial credit for using just one.
 */
+body{
+  color: black;
+  font-family: "Courier Lucida Console", monospace;
+}
+
+/* Properties for horizontally stretching elements*/
+.color_change_horizontal_stretch{
+  width: 120px;
+  height: 60px;
+  background-color: cyan;
+  font-size: 40pt;
+  margin: auto;
+  text-align: right;
+  transition: background-color 1s, width 1s;
+}
+
+.color_change_horizontal_stretch:hover{
+  width: 200px;
+  background-color: lightgreen;
+}
+
+/*Properties for vertically stretching elements*/
+.gradient_vertical_stretch{
+  width: 120px;
+  height: 60px;
+  background-color: lightgreen;
+  font-size: 40pt;
+  margin: auto;
+  text-align: left;
+  background: linear-gradient(to right, cyan, lightgreen);
+  transition: height 1s;
+}
+
+.gradient_vertical_stretch:hover{
+  height: 120px;
+}
